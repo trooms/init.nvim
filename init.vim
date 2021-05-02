@@ -12,7 +12,6 @@ call plug#begin(expand('~/.config/nvim/plugged'))
 "}}}
 
 " ================= looks and GUI stuff ================== "{{{
-Plug 'zhou13/vim-easyescape'
 Plug 'vim-airline/vim-airline'                          " airline status bar
 Plug 'ryanoasis/vim-devicons'                           " pretty icons everywhere
 Plug 'luochen1990/rainbow'                              " rainbow parenthesis
