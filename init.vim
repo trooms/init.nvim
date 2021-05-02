@@ -12,7 +12,7 @@ call plug#begin(expand('~/.config/nvim/plugged'))
 "}}}
 
 " ================= looks and GUI stuff ================== "{{{
-
+Plug 'zhou13/vim-easyescape'
 Plug 'vim-airline/vim-airline'                          " airline status bar
 Plug 'ryanoasis/vim-devicons'                           " pretty icons everywhere
 Plug 'luochen1990/rainbow'                              " rainbow parenthesis
@@ -451,5 +451,5 @@ nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
 nnoremap <silent> <C-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
-
+inoremap <Alt-;> <Esc>
 "}}}
