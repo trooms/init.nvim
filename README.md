@@ -67,7 +67,7 @@ To check if your current environment is correctly set up run `:CheckHealth`.
 
 After installing the requirements:
 
-- `git clone https://github.com/Blacksuan19/init.nvim ~/.config/nvim`
+- `git clone https://github.com/trooms/init.nvim ~/.config/nvim`
 - Start `nvim` and it will do the rest
 - press enter if there are any errors (don't worry its fine)
 
