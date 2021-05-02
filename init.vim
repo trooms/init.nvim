@@ -284,6 +284,11 @@ autocmd BufReadPost *
      \   exe "normal! g`\"" |
      \ endif
 
+"skeleton for new files
+autocmd BufNewFile  *.cpp   0r ~/.config/nvim/skeleton.cpp
+autocmd BufNewFile  *.h   0r ~/.config/nvim/skeleton.h
+autocmd BufNewFile *.py 0r ~/.config/nvim/skeleton.py
+
 " python renaming
 autocmd FileType python nnoremap <leader>rn :Semshi rename <CR>
 
