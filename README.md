@@ -13,6 +13,8 @@ separate extension for formatting while also having ALE which can do that as
 well, this double functionality is very common, thats one of the things this
 distro avoids, KISS!
 
+This is my take on [Blacksuan19's init.vim](https://github.com/Blacksuan19/init.nvim) with a few changes and mostly optimizations to allow it to work on OSX
+
 ## Features
 
 - Single file (you don't want your dotfiles to be all Vim script)
@@ -39,7 +41,7 @@ There is also support for:
 
 ## Requirements
 
-- Linux (not tested on other platforms)
+- This version should work on OSX and possibly still linux
 - Neovim (you can try regular Vim)
 - Properly set up environment
 
