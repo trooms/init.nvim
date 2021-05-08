@@ -70,6 +70,11 @@ After installing the requirements:
 - `git clone https://github.com/trooms/init.nvim ~/.config/nvim`
 - Start `nvim` and it will do the rest
 - press enter if there are any errors (don't worry its fine)
+- quit after spamming enter with :q
+- reopen with `nvim` and type :PlugInstall
+- restart again and type :UpdateRemotePlugins
+
+Should be good to go after this
 
 ## Plugins
 
