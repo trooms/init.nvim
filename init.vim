@@ -40,9 +40,18 @@ Plug 'machakann/vim-sandwich'                           " make sandwiches
 Plug 'christoomey/vim-tmux-navigator'                   " seamless vim and tmux navigation
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'TovarishFin/vim-solidity'
+Plug 'lervag/vimtex'                                    " VimTeX
+Plug 'folke/tokyonight.nvim'
 call plug#end()
 
 "}}}
+
+" vimtex
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
 
 " ==================== general config ======================== "{{{
 
@@ -95,7 +104,7 @@ set signcolumn=yes
 
 " Themeing
 let g:material_style = 'oceanic'
-colorscheme vim-material
+colorscheme tokyonight
 hi Pmenu guibg='#00010a' guifg=white                    " popup menu colors
 hi Comment gui=italic cterm=italic                      " italic comments
 hi Search guibg=#b16286 guifg=#ebdbb2 gui=NONE          " search string highlight color
